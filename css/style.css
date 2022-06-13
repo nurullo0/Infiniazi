@@ -1,0 +1,102 @@
+/* ----------------------
+text fonts
+----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/* ----------------------
+root varebls 
+------------------------ */
+:root {
+  --white: #FFFFFF;
+  --blue: #57B8FF;
+  --orange: #FDD04A;
+  --bg-black-88: rgba(0, 0, 0, 0.88);
+  --bg-icon-black-grey: #383D45;
+  --bg-white-35: rgba(255, 255, 255, 0.35);
+  --bg-white-30: rgba(255, 255, 255, 0.3);
+  --bg-white-15: rgba(255, 255, 255, 0.15);
+  --bg-black-grey: #2A313C;
+  --bg-white-grey: #E5E5E5;
+  --tx-black: #222730;
+  --tx-55: #555555;
+  --tx-grey: #999999;
+  --tx-grey-y: #80858F;
+  --tx-white-80: rgba(223, 223, 223, 0.8);
+}
+
+/*--------------------
+global style
+ -------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 82px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 74px;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h4 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h5 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+body {
+  background-color:var(--bg-black-88);
+  max-width: 1440px;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.btn {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 21px 34px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.fire-esports {
+  display: flex;
+  align-items: center;
+}
+
+.esports {
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 16px;
+}
