@@ -89,11 +89,14 @@ body {
   font-size: 18px;
   line-height: 28px;
 }
-
+header{
+  position: relative;
+  padding: 0 0 200px 0;
+}
 .fire-esports {
   display: flex;
   align-items: center;
-  margin-top: 222px;
+  margin-top: 100px;
 }
 .esports {
   color: var(--blue);
@@ -106,7 +109,7 @@ nav{
 .blue-div{
   background-color:rgb(0, 191, 255);
   width: 634px;
-  height: 1069px;
+  height: 1000px;
   position: absolute;
   right: 0px;
   z-index: -1;
@@ -115,11 +118,14 @@ nav{
 .nav-href a{
   color: var(--white);
 }
+.navbar-ahref:hover{
+  color:var(--orange)
+}
  .nav-href ul{
   display: flex;
   justify-content: space-between;
-  width: 715px;
-}
+  width: 550px;
+ }
 .all-nav-div{
   display: flex;
   align-items: center;
@@ -138,6 +144,9 @@ nav{
 .esports{
   margin: 10px;
 }
+.fire-img{
+  margin-left: 35px;
+}
 .fire-h1{
   width: 656px;
   height: 258px;
@@ -145,19 +154,29 @@ nav{
 .fire-p{
   color:var(--tx-grey);
   margin-top: 45px;
+  width: 700px;
+  margin-left: 35px;
 }
 .fire-h1{
   color:var(--white);
+  margin-left: 35px;
   position: relative
 }
-
+.icon{
+  transform: rotate(-90deg);
+  transform: translate(-50% 50%);
+  position: absolute;
+  left: 100px;
+  display: flex;
+}
 .fire-text-img{
   position: absolute;
-  left: 220px;
-  top: 155px;
+  left: 250px;
+  top: 510px;
 }
 .fire-btn{
   margin-top: 53px;
+  margin-left: 20px;
 }
 .fire-href-1{
   border: 1px solid var(--white);
@@ -165,7 +184,7 @@ nav{
 }
 .jangchi-img{
   position: absolute;
-  right: 0px;
+  right: 60px;
   top: 300px;
 }
 .fire-a{
@@ -174,19 +193,14 @@ nav{
 .homiylar{
   position: relative;  
   background-color: var(--orange);
-}
-.homiy-h3{
-  margin-top: 501px;
-  margin-left: 533px;
+  text-align: center;
+  padding: 130px 0;
 }
 .homiy-img{
-  position: absolute;
-  left: 610px;
 }
 .homiy-p{
   width: 700px;
-  margin-top: 44px;
-  margin-left: 432px;
+  margin: 40px auto ;
 }
 .homiy-imglar{
   width: 193px;
@@ -196,5 +210,14 @@ nav{
 .homiy-imglari{
   display: flex;
   justify-content: space-between;
-  margin-top: 41px;
+
+}
+.icon{
+  position: absolute;
+  left: -130px;
+  top: 500px;
+}
+.icon-href{
+  margin: 0 0 0 15px;
+  color: var(--tx-grey-y);
 }
