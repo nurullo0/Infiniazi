@@ -274,6 +274,7 @@ nav{
 .section-2 {
   color: var(--white);
   display: inline-flex;
+  padding: 50px 0;
 }
 
 .sec-1 {
@@ -298,19 +299,18 @@ nav{
 
 .section-3 {
   background: #2A313C;
-  border-radius: 0px;
-  display: inline-flex;
   color: var(--white);
+}
+.section-3__wrapper {
+  display: flex;
 }
 
 .sec-3 {
-  padding-left: 60px;
+  width: 50%;
 }
 
 .sec-4 {
-  padding-left: 100px;
-  padding-right: 30px;
-  margin-top: 90px;
+  width: 50%;
 }
 
 .fire-2 {
@@ -322,27 +322,253 @@ nav{
 }
 
 .img3>img {
-  padding-left: 10px;
-  margin-bottom: 50px;
+  margin: 0 5px;
 }
 
 .img3 {
   text-align: center;
   margin-top: 50px;
+  position: relative;
 }
 
 .box-img {
   width: 44px;
   height: 44px;
   background-color: var(--blue);
+  position: absolute;
+  top: 50%;
+  transform: translate(50%,-50%);
 }
 
 .img3-d {
-  transform: translate(10px, 70px);
+  left: 4%;
 }
 
 .img3-d2 {
+  right: 11%;
+  
+}
+.img3-img-active{
+box-shadow: 0px 0px 0px 10px rgba(222, 222, 222, 0.459);
+border-radius:20px;
+}
+/* sarvar ishlab boshladi shu joydan */
+
+.btn:hover {
+  border: 1px solid rgb(255, 253, 253);
+  background: rgb(31, 31, 31);
+  transition: 1s;
+}
+
+.fire-esports {
+  display: flex;
+  align-items: center;
+}
+
+.esports {
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.imgs {
+  display: flex;
+  width: 400px;
+  height: 732px;
+}
+
+.iconone {
+  height: 128px;
+  width: 128px;
   position: relative;
-  left: 520px;
-  top: 120px;
+  left: 50px;
+  bottom: 450px;
+}
+
+.icontwo {
+  height: 128px;
+  width: 128px;
+  position: relative;
+  left: 650px;
+  bottom: 470px;
+}
+
+.iconthree {
+  text-align: center;
+  height: 128px;
+  width: 128px;
+  position: relative;
+  left: 800px;
+  bottom: 450px;
+}
+
+.text1 {
+  position: absolute;
+  width: 336px;
+  height: 58px;
+  left: 80px;
+  bottom: 126.39px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height, or 121% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+}
+
+.text2 {
+  position: absolute;
+  width: 336px;
+  height: 58px;
+  left: 550px;
+  bottom: 126.39px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height, or 121% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+}
+
+.text3 {
+  position: absolute;
+  width: 336px;
+  height: 58px;
+  left: 970px;
+  bottom: 126.39px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height, or 121% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+}
+
+.fire {
+  display: flex;
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 50px;
+  margin-bottom: 50px
+}
+
+.title {
+  color: #FFFFFF;
+  margin: 50px;
+  margin-top: 50px
+}
+
+.photos {
+  display: flex;
+  margin: 30px;
+  color: var(--white);
+  padding: 50px 0;
+}
+.phots__h4 {
+  font-size: 32px;
+}
+.photos p {
+  color: var(--blue);
+}
+.photos h5 {
+  font-size: 20px;
+}
+.series1 {
+  margin-left: 20px;
+}
+
+.series2 {
+  margin-bottom: 700px;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+}
+
+.yellow {
+  width: 1349px;
+  height: 683px;
+  background: no-repeat, url(/img/bg-yellow.png);
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  position: relative;
+  bottom: 670px;
+
+  text-align: center;
+
+  color: #141820;
+}
+
+.inyellow {
+  position: relative;
+  top: 100px;
+
+
+}
+
+input {
+  position: relative;
+  top: 200px;
+  right: 80px;
+}
+
+.chizziq {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.inp {
+  color: var(--tx-black);
+  text-align: center;
+  width: 846px;
+  height: 56px;
+  position: relative;
+  top: 100px;
+  left: 280px;
+  font-size: 18px;
+}
+
+.inputbtn {
+  position: relative;
+  top: 98px;
+  right: 290px;
+  background-color: var(--blue);
+  padding: 26px 26px;
+  color: var(--white);
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 1050px;
+}
+/* hover */
+
+.btn:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(31, 31, 31);
+  transition: 1s;
+}
+
+.inputbtn:hover {
+  border: 1px solid rgb(255, 253, 253);
+  background: rgb(31, 31, 31);
+  transition: 1s;
 }
