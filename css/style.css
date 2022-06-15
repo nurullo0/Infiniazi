@@ -76,7 +76,7 @@ li {
 }
 body {
   background-color:var(--bg-black-88);
-  max-width: 1440px;
+  width: 100%;
 }
 .container {
   width: 95%;
@@ -93,10 +93,108 @@ body {
 .fire-esports {
   display: flex;
   align-items: center;
+  margin-top: 222px;
 }
-
 .esports {
   color: var(--blue);
   font-size: 16px;
   line-height: 16px;
+}
+nav{
+  align-items: center;
+}
+.blue-div{
+  background-color:rgb(0, 191, 255);
+  width: 634px;
+  height: 1069px;
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  top: 0px;
+}
+.nav-href a{
+  color: var(--white);
+}
+ .nav-href ul{
+  display: flex;
+  justify-content: space-between;
+  width: 715px;
+}
+.all-nav-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.nav-btn{
+  background-color: transparent;
+  border: 1px solid var(--white);
+  margin: 0 0 0 40px;
+}
+.olov-png-nav{
+  width: 32px;
+  height: 32px;
+}
+.esports{
+  margin: 10px;
+}
+.fire-h1{
+  width: 656px;
+  height: 258px;
+}
+.fire-p{
+  color:var(--tx-grey);
+  margin-top: 45px;
+}
+.fire-h1{
+  color:var(--white);
+  position: relative
+}
+
+.fire-text-img{
+  position: absolute;
+  left: 220px;
+  top: 155px;
+}
+.fire-btn{
+  margin-top: 53px;
+}
+.fire-href-1{
+  border: 1px solid var(--white);
+  background-color: transparent ;
+}
+.jangchi-img{
+  position: absolute;
+  right: 0px;
+  top: 300px;
+}
+.fire-a{
+  margin: 10px;
+}
+.homiylar{
+  position: relative;  
+  background-color: var(--orange);
+}
+.homiy-h3{
+  margin-top: 501px;
+  margin-left: 533px;
+}
+.homiy-img{
+  position: absolute;
+  left: 610px;
+}
+.homiy-p{
+  width: 700px;
+  margin-top: 44px;
+  margin-left: 432px;
+}
+.homiy-imglar{
+  width: 193px;
+  height: 89px;
+}
+
+.homiy-imglari{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
 }
