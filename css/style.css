@@ -221,3 +221,128 @@ nav{
   margin: 0 0 0 15px;
   color: var(--tx-grey-y);
 }
+
+/* akmal tugadi  */
+/* abror boshladi */
+.section-1 {
+  padding: 100px 0;
+  background-image: url('../img/abror-1-bg.png')
+}
+
+.fire-1 {
+  justify-content: center;
+}
+
+.f-12 {
+  text-align: center;
+  color: var(--white);
+}
+
+.f-12__p {
+  opacity: 0.5;
+  margin: 38px 0;
+}
+
+.p-sect-1 {
+  padding-left: 50px;
+  color: var( --tx-white-80);
+  font-size: 18px;
+  padding-top: 18px;
+}
+
+.h5-1 {
+  font-size: 32px;
+  color: var(--white);
+  padding-left: 15px;
+}
+
+.box4 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box4-4 {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 10px;
+  width: 586px;
+  margin: 16px;
+}
+
+.section-2 {
+  color: var(--white);
+  display: inline-flex;
+}
+
+.sec-1 {
+  margin-top: 170px;
+  margin-left: 60px;
+}
+
+.sec-2 {
+  margin-top: 130px;
+  margin-left: 50px;
+}
+
+.play {
+  position: relative;
+  bottom: 350px;
+  left: 200px;
+}
+
+.btn-1 {
+  margin-top: 100px;
+}
+
+.section-3 {
+  background: #2A313C;
+  border-radius: 0px;
+  display: inline-flex;
+  color: var(--white);
+}
+
+.sec-3 {
+  padding-left: 60px;
+}
+
+.sec-4 {
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-top: 90px;
+}
+
+.fire-2 {
+  margin-bottom: 22px;
+}
+
+.h2-1 {
+  margin-bottom: 40px;
+}
+
+.img3>img {
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.img3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.box-img {
+  width: 44px;
+  height: 44px;
+  background-color: var(--blue);
+}
+
+.img3-d {
+  transform: translate(10px, 70px);
+}
+
+.img3-d2 {
+  position: relative;
+  left: 520px;
+  top: 120px;
+}
