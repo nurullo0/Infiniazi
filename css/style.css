@@ -74,14 +74,17 @@ a {
 li {
   list-style: none;
 }
+
 body {
-  background-color:var(--bg-black-88);
+  background-color: var(--bg-black-88);
   width: 100%;
 }
+
 .container {
   width: 95%;
   margin: 0 auto;
 }
+
 .btn {
   background-color: var(--blue);
   color: var(--white);
@@ -95,16 +98,19 @@ body {
   align-items: center;
   margin-top: 222px;
 }
+
 .esports {
   color: var(--blue);
   font-size: 16px;
   line-height: 16px;
 }
-nav{
+
+nav {
   align-items: center;
 }
-.blue-div{
-  background-color:rgb(0, 191, 255);
+
+.blue-div {
+  background-color: rgb(0, 191, 255);
   width: 634px;
   height: 1069px;
   position: absolute;
@@ -112,88 +118,106 @@ nav{
   z-index: -1;
   top: 0px;
 }
-.nav-href a{
+
+.nav-href a {
   color: var(--white);
 }
- .nav-href ul{
+
+.nav-href ul {
   display: flex;
   justify-content: space-between;
   width: 715px;
 }
-.all-nav-div{
+
+.all-nav-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
 }
-.nav-btn{
+
+.nav-btn {
   background-color: transparent;
   border: 1px solid var(--white);
   margin: 0 0 0 40px;
 }
-.olov-png-nav{
+
+.olov-png-nav {
   width: 32px;
   height: 32px;
 }
-.esports{
+
+.esports {
   margin: 10px;
 }
-.fire-h1{
+
+.fire-h1 {
   width: 656px;
   height: 258px;
 }
-.fire-p{
-  color:var(--tx-grey);
+
+.fire-p {
+  color: var(--tx-grey);
   margin-top: 45px;
 }
-.fire-h1{
-  color:var(--white);
+
+.fire-h1 {
+  color: var(--white);
   position: relative
 }
 
-.fire-text-img{
+.fire-text-img {
   position: absolute;
   left: 220px;
   top: 155px;
 }
-.fire-btn{
+
+.fire-btn {
   margin-top: 53px;
 }
-.fire-href-1{
+
+.fire-href-1 {
   border: 1px solid var(--white);
-  background-color: transparent ;
+  background-color: transparent;
 }
-.jangchi-img{
+
+.jangchi-img {
   position: absolute;
   right: 0px;
   top: 300px;
 }
-.fire-a{
+
+.fire-a {
   margin: 10px;
 }
-.homiylar{
-  position: relative;  
+
+.homiylar {
+  position: relative;
   background-color: var(--orange);
 }
-.homiy-h3{
+
+.homiy-h3 {
   margin-top: 501px;
   margin-left: 533px;
 }
-.homiy-img{
+
+.homiy-img {
   position: absolute;
   left: 610px;
 }
-.homiy-p{
+
+.homiy-p {
   width: 700px;
   margin-top: 44px;
   margin-left: 432px;
 }
-.homiy-imglar{
+
+.homiy-imglar {
   width: 193px;
   height: 89px;
 }
 
-.homiy-imglari{
+.homiy-imglari {
   display: flex;
   justify-content: space-between;
   margin-top: 41px;
