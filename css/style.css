@@ -196,8 +196,7 @@ nav{
   text-align: center;
   padding: 130px 0;
 }
-.homiy-img{
-}
+
 .homiy-p{
   width: 700px;
   margin: 40px auto ;
@@ -226,7 +225,9 @@ nav{
 /* abror boshladi */
 .section-1 {
   padding: 100px 0;
-  background-image: url('../img/abror-1-bg.png')
+  background-image: url('../img/abror-1-bg.png');   
+  background-repeat: no-repeat;
+  background-size:cover ;
 }
 
 .fire-1 {
@@ -258,7 +259,6 @@ nav{
 
 .box4 {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -273,24 +273,35 @@ nav{
 
 .section-2 {
   color: var(--white);
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   padding: 50px 0;
 }
 
 .sec-1 {
   margin-top: 170px;
-  margin-left: 60px;
+  width: 50%;
 }
 
 .sec-2 {
   margin-top: 130px;
-  margin-left: 50px;
+  width: 50%;
+}
+.sec__imgs {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  padding: 0 20px;
+}
+.gamer {
+  width: 100%;
 }
 
 .play {
-  position: relative;
-  bottom: 350px;
-  left: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn-1 {
@@ -403,16 +414,11 @@ border-radius:20px;
 }
 
 .text1 {
-  position: absolute;
-  width: 336px;
-  height: 58px;
-  left: 80px;
-  bottom: 126.39px;
+  
 
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
-  /* identical to box height, or 121% */
 
   text-align: center;
   text-transform: capitalize;
@@ -421,16 +427,9 @@ border-radius:20px;
 }
 
 .text2 {
-  position: absolute;
-  width: 336px;
-  height: 58px;
-  left: 550px;
-  bottom: 126.39px;
-
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
-  /* identical to box height, or 121% */
 
   text-align: center;
   text-transform: capitalize;
@@ -439,17 +438,9 @@ border-radius:20px;
 }
 
 .text3 {
-  position: absolute;
-  width: 336px;
-  height: 58px;
-  left: 970px;
-  bottom: 126.39px;
-
   font-weight: 400;
   font-size: 48px;
   line-height: 58px;
-  /* identical to box height, or 121% */
-
   text-align: center;
   text-transform: capitalize;
 
@@ -571,4 +562,9 @@ input {
   border: 1px solid rgb(255, 253, 253);
   background: rgb(31, 31, 31);
   transition: 1s;
+}
+
+/* media  */
+@media (max-width:1200px) {
+  
 }
